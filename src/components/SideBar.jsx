@@ -1,62 +1,70 @@
 import React from 'react';
-import image from '../assets/images/png-transparent-cinema-film-moveis-logo-film-art-film.png';
+import argentinos from '../assets/images/argentinos.png';
+import atleticotucuman from '../assets/images/atleticotucuman.png';
+import banfield from '../assets/images/banfield.png';
+import barracascentral from '../assets/images/barracascentral.png';
+import riestra from '../assets/images/riestra.png';
+import gimnasiadelaplata from '../assets/images/gimnasiadelaplata.png';
+import huracan from '../assets/images/huracan.png';
+import independiente from '../assets/images/independiente.png';
+import independienterivadavia from '../assets/images/independienterivadavia.png';
+import instituto from '../assets/images/instituto.png';
+import river from '../assets/images/river.png';
+import rosariocentral from '../assets/images/rosariocentral.png';
+import talleres from '../assets/images/talleres.png';
+import velez from '../assets/images/velez.png';
+import belgrano from '../assets/images/belgrano.png';
+import boca from '../assets/images/boca.png';
+import centralcordoba from '../assets/images/centralcordoba.png';
+import defensayjusticia from '../assets/images/defensayjusticia.png';
+import estudiantesdelaplata from '../assets/images/estudiantesdelaplata.png';
+import godoycruz from '../assets/images/godoycruz.png';
+import lanus from '../assets/images/lanus.png';
+import newells from '../assets/images/newells.png';
+import platense from '../assets/images/platense.png';
+import racing from '../assets/images/racing.png';
+import sanlorenzo from '../assets/images/sanlorenzo.png';
+import sarmiento from '../assets/images/sarmiento.png';
+import tigre from '../assets/images/tigre.png';
+import union from '../assets/images/union.png';
+
 
 function SideBar(){
     return(
         <React.Fragment>
-            {/*<!-- Sidebar -->*/}
-            <ul className="navbar-nav bg-gradient-secondary sidebar sidebar-dark accordion" id="accordionSidebar">
+        <div className='escudos'>
 
-                {/*<!-- Sidebar - Brand -->*/}
-                <a className="sidebar-brand d-flex align-items-center justify-content-center" href="/">
-                    <div className="sidebar-brand-icon">
-                        <img className="w-100" src={image} alt="Digital House"/>
-                    </div>
-                </a>
-
-                {/*<!-- Divider -->*/}
-                <hr className="sidebar-divider my-0"/>
-
-                {/*<!-- Nav Item - Dashboard -->*/}
-                <li className="nav-item active">
-                    <a className="nav-link" href="/">
-                        <i className="fas fa-fw fa-tachometer-alt"></i>
-                        <span>MOVIES</span></a>
-                </li>
-
-                {/*<!-- Divider -->*/}
-                <hr className="sidebar-divider"/>
-
-                {/*<!-- Heading -->*/}
-                <div className="sidebar-heading">Actions</div>
-
-                {/*<!-- Nav Item - Pages -->*/}
-                <li className="nav-item">
-                    <a className="nav-link collapsed" href="/">
-                        <i className="fas fa-fw fa-folder"></i>
-                        <span>Pages</span>
-                    </a>
-                </li>
-
-                {/*<!-- Nav Item - Charts -->*/}
-                <li className="nav-item">
-                    <a className="nav-link" href="/">
-                        <i className="fas fa-fw fa-chart-area"></i>
-                        <span>Charts</span></a>
-                </li>
-
-                {/*<!-- Nav Item - Tables -->*/}
-                <li className="nav-item">
-                    <a className="nav-link" href="/">
-                        <i className="fas fa-fw fa-table"></i>
-                        <span>Tables</span></a>
-                </li>
-
-                {/*<!-- Divider -->*/}
-                <hr className="sidebar-divider d-none d-md-block"/>
-            </ul>
-            {/*<!-- End of Sidebar -->*/}
-            
+         <img className="argentinos" src={argentinos} alt="argentinos"/>
+         <img className="atleticotucuman" src={atleticotucuman} alt="atleticotucuman"/>
+         <img className="banfield" src={banfield} alt="banfield"/>
+         <img className="barracascentral" src={barracascentral} alt="barracascentral"/>
+         <img className="riestra" src={riestra} alt="riestra"/>
+         <img className="gimnasiadelaplata" src={gimnasiadelaplata} alt="gimnasiadelaplata"/>
+         <img className="huracan" src={huracan} alt="huracan"/>
+         <img className="independiente" src={independiente} alt="independiente"/>
+         <img className="independienterivadavia" src={independienterivadavia} alt="independienterivadavia"/>
+         <img className="instituto" src={instituto} alt="instituto"/>
+         <img className="river" src={river} alt="river"/>
+         <img className="rosariocentral" src={rosariocentral} alt="rosariocentral"/>
+         <img className="talleres" src={talleres} alt="talleres"/>
+         <img className="velez" src={velez} alt="velez"/>
+         <img className="belgrano" src={belgrano} alt="belggrano"/>
+         <img className="boca" src={boca} alt="boca"/>
+         <img className="centralcordoba" src={centralcordoba} alt="centralcordoba"/>
+         <img className="defensayjusticia" src={defensayjusticia} alt="defensayjusticia"/>
+         <img className="estudiantesdelaplata" src={estudiantesdelaplata} alt="estudiantesdelaplata"/>
+         <img className="godoycruz" src={godoycruz} alt="godoycruz"/>
+         <img className="lanus" src={lanus} alt="lanus"/>
+         <img className="newells" src={newells} alt="newells"/>
+         <img className="platense" src={platense} alt="platense"/>
+         <img className="racing" src={racing} alt="racing"/>
+         <img className="sanlorenzo" src={sanlorenzo} alt="sanlorenzo"/>
+         <img className="sarmiento" src={sarmiento} alt="sarmiento"/>
+         <img className="tigre" src={tigre} alt="tigre"/>
+         <img className="union" src={union} alt="union"/>
+         </div>
+         
+        
         </React.Fragment>
     )
 }
