@@ -33,6 +33,7 @@ function Body(){
     return(
         <React.Fragment>
 				{/*<!-- Content Row Top -->*/}
+        <div className='infoEquipos'>
         <div className='conteiner_argentinos'>
           <div className='argentinos_CA'>
           <img className="img_argentinos" src={argentinos} alt="argentinos"/>
@@ -52,7 +53,7 @@ Colores rojo y azul, mascota "el bicho colorado".
            CLUB ATLETICO TUCUMAN <br></br>
           Fundado en 1902 en Tucumán, juega en la primera división argentina.
 Campeón de la Copa de la Superliga 2020: ¡un logro histórico!
-Cantera emergente: de ahí salieron jugadores como Cristian Lucchetti, Luis Advíncula y Mauro Cetto.
+Cantera emergente: de ahí salieron jugadores como Cristian Lucchetti y Mauro Cetto.
 Juega en el Estadio Monumental José Fierro, un estadio moderno y confortable.
 Colores celeste y blanco, mascota "el Decano".
 Clásico rival: San Martín de Tucumán, ¡un duelo provincial!
@@ -65,7 +66,7 @@ Clásico rival: San Martín de Tucumán, ¡un duelo provincial!
            CLUB ATLETICO BANFIELD <br></br>
           Fundado en 1896 en Banfield, juega en la primera división argentina.
 Campeón de Primera División en 1973: ¡un título histórico!
-Cantera destacada: de ahí salieron jugadores como Javier Zanetti, Ariel Ortega y Eduardo Salvio.
+Cantera destacada: de ahí salieron jugadores como Javier Zanetti.
 Juega en el Estadio Florencio Sola, un estadio con mucha historia.
 Colores verde y blanco, mascota "el Taladro".
 Clásico rival: Lanús, ¡un duelo del sur!
@@ -326,9 +327,9 @@ Clásico rival: Independiente, ¡el Clásico de Avellaneda!
           </div>
            CLUB ATLETICO SAN LORENZO DE ALMAGRO<br></br>
           Fundado el 1 de abril de 1908 en la ciudad de Buenos Aires, Argentina.
-          Campeón de Primera División en 17 ocasiones (1927, 1933, 1946, 1959, 1968, 1972, 1974, 1981, 1987-88, 1995-96, 2001, 2007-08, 2013, 2020, 2021).
+          Campeón de Primera División en 17 ocasiones.
 Campeón de la Copa Libertadores en 1 ocasión (2014).
-Campeón de la Copa Sudamericana en 2 ocasiones (2002, 2005).
+Campeón de la Copa Sudamericana en 2 ocasiones (2002).
 Juega en el Estadio Pedro Bidegain, un estadio con capacidad para albergar a alrededor de 47.000 espectadores.
 Colores azulgrana, su apodo es "el Ciclón".
 Clásico rival: Huracán, ¡el Clásico del Bajo Flores!
@@ -365,6 +366,7 @@ Colores azul Francia y rojo bermellón, su apodo "el Matador".
 Colores rojiblanco, su apodo"el Tatengue".
 Clásico rival: Colon, ¡el Clásico de Santa Fe!
         </div> 
+        </div>
         
         </React.Fragment>
     )

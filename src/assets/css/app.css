@@ -1,6 +1,27 @@
 /* SideBar */
+i{
+    color: #f2ff00;
+    display: flex;
+}
+
+.iestrellas{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
 .ContentWrapper{
     max-width: 100%;;
+}
+
+.infoEquipos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 .escudos{
@@ -12,8 +33,8 @@
     height: auto;
     background-color: rgb(255, 255, 255);
     flex-wrap: wrap;
-    justify-content: space-evenly
-    
+    justify-content: space-evenly;
+    margin: 8px
 }
 
 .argentinos{
@@ -169,6 +190,7 @@
   color: #f2ff00;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 25px;
   text-shadow: 0 0 10px #000000, 0 0 20px #000000;
   background-color: #fff;
   padding-top: 10px;
@@ -183,12 +205,13 @@
 
 .conteiner_argentinos{
 
-    DISPLAY: FLEX;
-    margin-top: 50px;
+    margin: 15px;
     border: solid;
     justify-content: flex-start;
     background-color: #fff;
     text-align: center;
+    display: block;
+    padding-bottom: 15px;
 }
 .img_argentinos{
     width: 100px;
